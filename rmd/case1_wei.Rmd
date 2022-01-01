@@ -67,7 +67,7 @@ Read Gorkha PGA data
 
 ```{r}
 # Read from folder
-pga <- read.table( here( "data","shaking_model", "deterministic_shengji,meng_denser", "pga.data"), head=TRUE, sep=" ")
+pga <- read.table( here( "data","shaking_model", "stochastic_wei", "pga.data"), head=TRUE, sep=" ")
 # Change column names
 colnames(pga) <- c("lon", "lat", "pga")
 # Convert (cm/s)/s to g-units
