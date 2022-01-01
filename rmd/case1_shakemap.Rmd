@@ -65,7 +65,7 @@ Read Gorkha PGA data
 
 ```{r}
 # Read from downloaded folder
-r.pga <- raster(here( "data","shaking_model","shakemap", "raster-5", "pga_mean.flt"), sep=",")
+r.pga <- raster(here( "data","shaking_model","shakemap", "pga_mean.flt"), sep=",")
 crs(r.pga) <- crs(map_proj)
 r.pga <- 10^r.pga # File is in natural log units 
 #plot(r.pga) # summary(r.pga)
