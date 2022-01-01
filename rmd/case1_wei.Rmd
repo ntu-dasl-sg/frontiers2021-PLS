@@ -5,15 +5,12 @@ date: "10/14/2021"
 output: html_document
 ---
 
-Hazard model source: Wei 2018, Combined deterministic simulation (low frequency) and stochastic simulations (high frequency) for a few stations located around and within Kathmandu. We use a simplified 3D velocity model for the Kathmandu basin
+Note from authors of Wei and Chen: "I did not combine stochastic simulation results and deterministic finite difference simulation results with matched filter. Since Prof. Wei said the grid interval is too small for finite difference simulations"
 
 Papers: Wei, S., Chen, M., Wang, X., Graves, R., Lindsey, E., Wang, T., Karakaş, Ç. and Helmberger, D., 2018. The 2015 Gorkha (Nepal) earthquake sequence: I. Source modeling and deterministic 3D ground shaking. Tectonophysics, 722, pp.447-461.
 Chen, M. and Wei, S., 2019. The 2015 Gorkha, Nepal, Earthquake Sequence: II. Broadband Simulation of Ground Motion in Kathmandu. Bulletin of the Seismological Society of America, 109(2), pp.672-687.
 
-Data received from Wei Shengji and Mei in July 2020
-Data is re-analyzed to be in the same resolution as USGS Shakemap
-Resolution: 0.0167 deg
-Units: (cm/s)/s
+Data received from Wei Shengji and Mei Chen in July 2020
 
 
 ```{r setup, include=FALSE}
