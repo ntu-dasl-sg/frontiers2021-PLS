@@ -1,6 +1,7 @@
 # Learning from success, not catastrophe: using counterfactual analysis to highlight successful disaster risk reduction interventions
 
-This is a code repository for our manuscript. Further inquiries can be directed to the corresponding author: Maricar Rabonza (MARICARL001@e.ntu.edu.sg)
+This is a code repository for our manuscript. Further inquiries can be directed to the corresponding author: Maricar Rabonza (MARICARL001@e.ntu.edu.sg).
+
 Large files are not uploaded in this repository due to file size restrictions (e.g. ground motion fields).
 
 ## Paper details
